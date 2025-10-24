@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinab Gogoi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.js">
+</head>
+<body>
+    <div class="conatiner">
+        <header class="header">
+            <div class="name">
+                <p><i class="first_name">Abhinab</i>
+                <b> Gogoi</b></p>
+            </div>
+
+        </header>
+
+        <div>
+            <a href="">LinkedIn</a>
+            <a href="">GitHub</a>
+            <a href="">Instagram</a>
+        </div>
+        <div class="main-content">
+            <div class="left-col">
+                <section class="about_box">
+                    <img src="" alt="" class="avataar" id="avataar-img">
+                    <div class="about-text">
+                        <h1 id="about-heading">
+                            Hey There
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis adipisci laudantium, commodi sint officiis, at ea ducimus sed veritatis et quae fugit! Vitae, quod laborum possimus officia molestiae suscipit hic!</p>
+
+                    </div>
+                </section>
+                <section class="projects-box">
+                    <h2>My Projects</h2>
+                    <div class="project-filter">
+                        <section class="project-box">
+                            <button class="filter-btn active" data-filter="featured">All</button>
+                            <button class="filter-btn" data-filter="featured">Featured</button>
+                        </section>
+                    </div>
+                </section>
+            </div>
+            <div class="right-col">
+                <section class="skill-box">
+                    <h2>My Skills</h2>
+                    <ul id="skill-list"></ul>
+                </section>
+                <section class="contact-box">
+                    <h2>Get in Touch</h2>
+                    <p>I'd be excited to collaborate. Feel free to reach out!</p>
+                    <a href="mailto:email@example.com" class="cta-btn">Email Me</a>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
